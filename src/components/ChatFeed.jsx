@@ -1,3 +1,5 @@
-import React from 'react'
+import React from 'react';
 
-const ChatFeed = () => {}
+const ChatFeed = (props) => {
+  console.log(props);
+};
