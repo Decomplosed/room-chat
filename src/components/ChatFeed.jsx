@@ -3,9 +3,7 @@ import MessageForm from './MessageForm';
 import MyMessage from './MyMessage';
 import TheirMessage from './TheirMessage';
 
-const ChatFeed = (props) => {
-  console.log(props);
-
+const ChatFeed = ({ chats, activeChat, userName, messages }) => {
   return <div>Chat Feed</div>;
 };
 
