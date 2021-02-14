@@ -9,7 +9,7 @@ const App = () => {
       projectID={process.env.REACT_APP_CHAT_ENGINE_PROJECT_ID}
       userName='Bart'
       userSecret='123456'
-      renderChatFeed={(chatAppProps) => {}}
+      renderChatFeed={(chatAppProps) => <ChatFeed {...chatAppProps} />}
     />
   );
 };
