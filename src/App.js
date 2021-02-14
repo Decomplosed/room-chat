@@ -7,8 +7,9 @@ const App = () => {
     <ChatEngine
       height='100vh'
       projectID={process.env.REACT_APP_CHAT_ENGINE_PROJECT_ID}
-      userName=''
-      userSecret=''
+      userName='Bart'
+      userSecret='123456'
+      renderChatFeed={(chatAppProps) => {}}
     />
   );
 };
