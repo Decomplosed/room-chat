@@ -38,7 +38,7 @@ const ChatFeed = ({ chats, activeChat, userName, messages }) => {
   return (
     <div className='chat-feed'>
       <div className='chat-title-container'>
-        <div className='chat-title'></div>
+        <div className='chat-title'>{chat?.title}</div>
       </div>
     </div>
   );
