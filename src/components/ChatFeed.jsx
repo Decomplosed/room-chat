@@ -6,6 +6,8 @@ import TheirMessage from './TheirMessage';
 const ChatFeed = ({ chats, activeChat, userName, messages }) => {
   const chat = chats && chats[activeChat];
 
+  const renderMessages = () => {};
+
   return <div>Chat Feed</div>;
 };
 
