@@ -25,7 +25,9 @@ const ChatFeed = ({ chats, activeChat, userName, messages }) => {
               marginRight: isMyMessage ? '18px' : '0px',
               marginLeft: isMyMessage ? '0px' : '68px',
             }}
-          ></div>
+          >
+            read-receipts
+          </div>
         </div>
       );
     });
