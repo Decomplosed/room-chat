@@ -42,7 +42,7 @@ const ChatFeed = ({ chats, activeChat, userName, messages }) => {
       <div className='chat-title-container'>
         <div className='chat-title'>{chat.title}</div>
         <div className='chat-subtitle'>
-          {chat.people.map((person) => ``)}
+          {chat.people.map((person) => `${person.person.username}`)}
         </div>
       </div>
     </div>
