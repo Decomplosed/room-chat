@@ -19,6 +19,7 @@ const ChatFeed = ({ chats, activeChat, userName, messages }) => {
           <div className='message-block'>
             {isMyMessage ? <MyMessage /> : <TheirMessage />}
           </div>
+          <div className='read-receipts'></div>
         </div>
       );
     });
