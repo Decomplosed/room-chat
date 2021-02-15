@@ -1,6 +1,6 @@
 import React from 'react';
 
-const MyMessage = () => {
+const MyMessage = ({ message }) => {
   return <div>MyMessage</div>;
 };
 
