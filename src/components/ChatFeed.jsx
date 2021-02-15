@@ -35,6 +35,8 @@ const ChatFeed = ({ chats, activeChat, userName, messages }) => {
 
   renderMessages();
 
+  if (!chat) return 'Loading...';
+
   return (
     <div className='chat-feed'>
       <div className='chat-title-container'>
