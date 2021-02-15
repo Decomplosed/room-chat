@@ -10,6 +10,8 @@ const ChatFeed = ({ chats, activeChat, userName, messages }) => {
     const keys = Object.keys(messages);
   };
 
+  renderMessages();
+
   return <div>Chat Feed</div>;
 };
 
