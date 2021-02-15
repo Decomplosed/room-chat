@@ -17,7 +17,14 @@ const ChatFeed = (props, { chats, activeChat, userName, messages }) => {
       return (
         <div key={`msg_${index}`}>
           <div className='message-block'>
-            {isMyMessage ? <MyMessage message={message} /> : <TheirMessage />}
+            {isMyMessage ? (
+              <MyMessage message={message} />
+            ) : (
+              <TheirMessage
+                message={message}
+                lastMessage={messages[lastMessageKey]}
+              />
+            )}
           </div>
           <div
             className='read-receipts'
