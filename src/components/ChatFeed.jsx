@@ -19,7 +19,13 @@ const ChatFeed = ({ chats, activeChat, userName, messages }) => {
           <div className='message-block'>
             {isMyMessage ? <MyMessage /> : <TheirMessage />}
           </div>
-          <div className='read-receipts'></div>
+          <div
+            className='read-receipts'
+            style={{
+              marginRight: isMyMessage ? '18px' : '0px',
+              marginLeft: isMyMessage ? '0px' : '68px',
+            }}
+          ></div>
         </div>
       );
     });
