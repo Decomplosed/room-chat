@@ -8,6 +8,10 @@ const ChatFeed = ({ chats, activeChat, userName, messages }) => {
 
   const renderMessages = () => {
     const keys = Object.keys(messages);
+
+    return keys.map((key, index) => {
+      const message = messages[key];
+    });
   };
 
   renderMessages();
