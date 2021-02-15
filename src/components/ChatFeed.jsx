@@ -35,7 +35,7 @@ const ChatFeed = ({ chats, activeChat, userName, messages }) => {
 
   renderMessages();
 
-  return <div>Chat Feed</div>;
+  return <div className='chat-feed'>Chat Feed</div>;
 };
 
 export default ChatFeed;
