@@ -13,6 +13,8 @@ const ChatFeed = ({ chats, activeChat, userName, messages }) => {
       const message = messages[key];
       const lastMessageKey = index === 0 ? null : keys[index - 1];
       const isMyMessage = username === message.sender.userName;
+
+      return <div key={`msg_${index}`}></div>;
     });
   };
 
