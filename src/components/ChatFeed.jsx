@@ -16,7 +16,9 @@ const ChatFeed = ({ chats, activeChat, userName, messages }) => {
 
       return (
         <div key={`msg_${index}`}>
-          <div className='message-block'></div>
+          <div className='message-block'>
+            {isMyMessage ? <MyMessage /> : <TheirMessage />}
+          </div>
         </div>
       );
     });
