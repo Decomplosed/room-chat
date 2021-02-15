@@ -33,8 +33,6 @@ const ChatFeed = ({ chats, activeChat, userName, messages }) => {
     });
   };
 
-  renderMessages();
-
   if (!chat) return 'Loading...';
 
   return (
@@ -45,6 +43,7 @@ const ChatFeed = ({ chats, activeChat, userName, messages }) => {
           {chat.people.map((person) => `${person.person.username}`)}
         </div>
       </div>
+      {renderMessages()}
     </div>
   );
 };
