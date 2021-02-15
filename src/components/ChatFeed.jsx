@@ -45,6 +45,7 @@ const ChatFeed = ({ chats, activeChat, userName, messages }) => {
       </div>
       {renderMessages()}
       <div style={{ height: '100px' }} />
+      <div className='message-form-container'></div>
     </div>
   );
 };
