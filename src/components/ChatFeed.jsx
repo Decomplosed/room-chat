@@ -6,7 +6,9 @@ import TheirMessage from './TheirMessage';
 const ChatFeed = ({ chats, activeChat, userName, messages }) => {
   const chat = chats && chats[activeChat];
 
-  const renderMessages = () => {};
+  const renderMessages = () => {
+    const keys = Object.keys(messages);
+  };
 
   return <div>Chat Feed</div>;
 };
