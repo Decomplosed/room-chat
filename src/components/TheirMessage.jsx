@@ -17,7 +17,7 @@ const TheirMessage = ({ lastMessage, message }) => {
           src={message.attachments[0].file}
           alt='message-attachment'
           className='message-image'
-          style={{ flaot: 'right' }}
+          style={{ marginLeft: isFirstMessageByUser ? '4px' : '48px' }}
         />
       ) : (
         <div
