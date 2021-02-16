@@ -25,7 +25,7 @@ const TheirMessage = ({ lastMessage, message }) => {
           style={{
             float: 'left',
             color: 'white',
-            backgroundColor: '#3B2A50',
+            backgroundColor: '#CABCDC',
           }}
         >
           {message.text}
