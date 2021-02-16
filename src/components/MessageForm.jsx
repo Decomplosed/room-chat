@@ -5,7 +5,11 @@ const MessageForm = () => {
 
   return (
     <form className='message-form' onSubmit={handleSubmit}>
-      <input className='message-input' placeholder='Send a message...' />
+      <input
+        className='message-input'
+        placeholder='Send a message...'
+        value={value}
+      />
     </form>
   );
 };
