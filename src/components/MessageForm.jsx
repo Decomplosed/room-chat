@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { sendMessage, isTyping } from 'react-chat-engine';
 
-const MessageForm = () => {
+const MessageForm = (props) => {
   const [value, setValue] = useState('');
 
   const handleSubmit = () => {};
