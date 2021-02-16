@@ -3,6 +3,8 @@ import React from 'react';
 const MessageForm = () => {
   const handleSubmit = () => {};
 
+  const handleChange = () => {};
+
   return (
     <form className='message-form' onSubmit={handleSubmit}>
       <input
