@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { sendMessage, isTyping } from 'react-chat-engine';
 
 const MessageForm = () => {
   const [value, setValue] = useState('');
