@@ -8,6 +8,8 @@ const MessageForm = () => {
 
   const handleChange = (event) => {
     setValue(event.target.value);
+
+    isTyping(props, chatId);
   };
 
   return (
