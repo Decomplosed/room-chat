@@ -14,6 +14,7 @@ const MessageForm = () => {
         placeholder='Send a message...'
         value={value}
         onChange={handleChange}
+        onSubmit={handleSubmit}
       />
     </form>
   );
