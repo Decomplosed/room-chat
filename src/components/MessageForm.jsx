@@ -4,7 +4,7 @@ import { sendMessage, isTyping } from 'react-chat-engine';
 const MessageForm = (props, { chatId, creds }) => {
   const [value, setValue] = useState('');
 
-  const handleSubmit = () => {
+  const handleSubmit = (event) => {
     event.preventDefault();
   };
 
