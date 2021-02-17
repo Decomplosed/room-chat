@@ -47,7 +47,7 @@ const MessageForm = (props, { chatId, creds }) => {
         onChange={handleUpload}
       />
       <button type='submit' className='send-button'>
-        <SendOutlined />
+        <SendOutlined className='send-icon' />
       </button>
     </form>
   );
