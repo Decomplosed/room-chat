@@ -29,6 +29,7 @@ const MessageForm = (props, { chatId, creds }) => {
         onChange={handleChange}
         onSubmit={handleSubmit}
       />
+      <label htmlFor=""></label>
     </form>
   );
 };
