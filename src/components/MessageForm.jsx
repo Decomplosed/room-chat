@@ -40,6 +40,7 @@ const MessageForm = (props, { chatId, creds }) => {
         multiple={false}
         id='upload-button'
         style={{ display: 'none' }}
+        onChange={handleUpload}
       />
     </form>
   );
