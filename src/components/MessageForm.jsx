@@ -35,7 +35,7 @@ const MessageForm = (props, { chatId, creds }) => {
           <PictureOutlined className='picture-icons' />
         </span>
       </label>
-      <input type='file' />
+      <input type='file' multiple={false} />
     </form>
   );
 };
