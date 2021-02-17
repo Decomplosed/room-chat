@@ -31,7 +31,9 @@ const MessageForm = (props, { chatId, creds }) => {
         onSubmit={handleSubmit}
       />
       <label htmlFor='upload-button'>
-        <span className='image-button'></span>
+        <span className='image-button'>
+          <PictureOutlined className='picture-icons' />
+        </span>
       </label>
     </form>
   );
