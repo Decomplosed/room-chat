@@ -21,7 +21,7 @@ const MessageForm = (props, { chatId, creds }) => {
     isTyping(props, chatId);
   };
 
-  const handleUpload = () => {};
+  const handleUpload = (event) => {};
 
   return (
     <form className='message-form' onSubmit={handleSubmit}>
