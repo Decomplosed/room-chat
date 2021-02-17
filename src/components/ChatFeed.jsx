@@ -14,7 +14,10 @@ const ChatFeed = (props) => {
           <div
             key={`read_${index}`}
             className='read-receipt'
-            style={{ float: isMyMessage ? 'right' : 'left' }}
+            style={{
+              float: isMyMessage ? 'right' : 'left',
+              backgroundImage: `url(${person?.person?.avatar})`,
+            }}
           />
         ),
     );
