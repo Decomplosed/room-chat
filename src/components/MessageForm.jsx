@@ -46,6 +46,7 @@ const MessageForm = (props, { chatId, creds }) => {
         style={{ display: 'none' }}
         onChange={handleUpload}
       />
+      <button></button>
     </form>
   );
 };
