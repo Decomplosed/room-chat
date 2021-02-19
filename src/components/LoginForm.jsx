@@ -29,7 +29,9 @@ const LoginForm = () => {
             required
           />
           <div align='center'>
-            <button type='submit' className='button'></button>
+            <button type='submit' className='button'>
+              <span>Start Chatting</span>
+            </button>
           </div>
         </form>
       </div>
