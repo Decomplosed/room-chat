@@ -1,3 +1,5 @@
 import React, { useState } from 'react';
 
-const LoginForm = () => {};
+const LoginForm = () => {
+  const [username, setUsername] = useState('');
+};
