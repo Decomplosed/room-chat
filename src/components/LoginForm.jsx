@@ -5,6 +5,8 @@ const LoginForm = () => {
   const [username, setUsername] = useState('');
   const [password, setPaddword] = useState('');
 
+  const handleSubmit = () => {};
+
   return (
     <div className='wrapper'>
       <div className='form'>
