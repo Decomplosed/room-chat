@@ -18,6 +18,7 @@ const LoginForm = () => {
             onChange={(e) => setUsername(e.target.value)}
             className='input'
             placeholder='Username'
+            required
           />
         </form>
       </div>
