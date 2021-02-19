@@ -17,6 +17,7 @@ const LoginForm = () => {
             value={username}
             onChange={(e) => setUsername(e.target.value)}
             className='input'
+            placeholder='Username'
           />
         </form>
       </div>
