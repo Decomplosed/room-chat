@@ -24,7 +24,9 @@ const LoginForm = () => {
 
       window.location.reload();
       setError('');
-    } catch (error) {}
+    } catch (error) {
+      setError('Oops, incorrect credentials.');
+    }
   };
 
   return (
