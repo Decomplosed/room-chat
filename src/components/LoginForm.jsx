@@ -3,7 +3,7 @@ import axios from 'axios';
 
 const LoginForm = () => {
   const [username, setUsername] = useState('');
-  const [password, setPaddword] = useState('');
+  const [password, setPassword] = useState('');
 
   const handleSubmit = () => {};
 
