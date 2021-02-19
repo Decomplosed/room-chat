@@ -20,6 +20,14 @@ const LoginForm = () => {
             placeholder='Username'
             required
           />
+          <input
+            type='password'
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+            className='input'
+            placeholder='Username'
+            required
+          />
         </form>
       </div>
     </div>
