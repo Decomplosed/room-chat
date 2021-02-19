@@ -16,6 +16,7 @@ const LoginForm = () => {
             type='text'
             value={username}
             onChange={(e) => setUsername(e.target.value)}
+            className='input'
           />
         </form>
       </div>
