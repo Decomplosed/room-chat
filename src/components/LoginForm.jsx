@@ -7,7 +7,9 @@ const LoginForm = () => {
 
   return (
     <div className='wrapper'>
-      <div className='form'></div>
+      <div className='form'>
+        <h1 className='title'></h1>
+      </div>
     </div>
   );
 };
