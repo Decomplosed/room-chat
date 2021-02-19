@@ -14,6 +14,9 @@ const LoginForm = () => {
     };
 
     try {
+      await axios.get('https://api.chatengine.io/chats', {
+        headers: authObject,
+      });
     } catch (error) {}
   };
 
