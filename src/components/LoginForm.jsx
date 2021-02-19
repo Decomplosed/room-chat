@@ -28,6 +28,7 @@ const LoginForm = () => {
             placeholder='Username'
             required
           />
+          <div align='center'></div>
         </form>
       </div>
     </div>
