@@ -19,6 +19,7 @@ const LoginForm = () => {
       });
 
       localStorage.setItem('username', username);
+      localStorage.setItem('password', password);
     } catch (error) {}
   };
 
