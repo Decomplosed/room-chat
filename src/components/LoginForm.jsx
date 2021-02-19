@@ -7,6 +7,10 @@ const LoginForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    const authObject = {
+      'Project-ID': process.env.REACT_APP_CHAT_ENGINE_PROJECT_ID,
+    };
   };
 
   return (
