@@ -9,6 +9,7 @@ const LoginForm = () => {
     <div className='wrapper'>
       <div className='form'>
         <h1 className='title'>Chat Application</h1>
+        <form onSubmit={handleSubmit}></form>
       </div>
     </div>
   );
