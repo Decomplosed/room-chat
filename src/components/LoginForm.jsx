@@ -56,7 +56,7 @@ const LoginForm = () => {
             </button>
           </div>
         </form>
-        <h1>{error}</h1>
+        <h2 className='error'>{error}</h2>
       </div>
     </div>
   );
