@@ -12,7 +12,7 @@ const App = () => {
     <ChatEngine
       height='100vh'
       projectID={process.env.REACT_APP_CHAT_ENGINE_PROJECT_ID}
-      userName='Bart'
+      userName={localStorage.getItem('username')}
       userSecret='123456'
       renderChatFeed={(chatAppProps) => <ChatFeed {...chatAppProps} />}
     />
