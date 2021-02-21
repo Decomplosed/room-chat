@@ -48,12 +48,12 @@ const LoginForm = () => {
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             className='input'
-            placeholder='Username'
+            placeholder='Password'
             required
           />
           <div align='center'>
             <button type='submit' className='button'>
-              <span>Start Chatting</span>
+              <span>Start chatting</span>
             </button>
           </div>
         </form>
