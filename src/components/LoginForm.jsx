@@ -12,6 +12,7 @@ const LoginForm = () => {
     const authObject = {
       'Project-ID': process.env.REACT_APP_CHAT_ENGINE_PROJECT_ID,
       'User-Name': username,
+      'User-Secret': password,
     };
 
     try {
